@@ -1,0 +1,5769 @@
+fileFormatVersion: 2
+guid: 5336feff5b2f8974ea0951945b461234
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7547745529561268036
+    second: emeraldhillzone_0
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: emeraldhillzone_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 4084
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb045773e65014790800000000000000
+      internalID: -7547745529561268036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 4084
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ff336d2b14fcb48a16ff41a2ed70bf
+      internalID: -1808383528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 4084
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5b7a72df61fc4458b737ba8b867b3b
+      internalID: -2000564300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_3
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 4084
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f613e3d74797a4791a358328e5270e
+      internalID: -789766267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_4
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 4084
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f712d5e54f759314481e0d58b5df2f57
+      internalID: -738908920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_5
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 4084
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee1ca5bdd6650a4391124f4656f5f98
+      internalID: 474087920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_6
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 4084
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec279c2161461845afcfc68e0348d12
+      internalID: -1869656826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_7
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 4084
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a8e600b011f804794cdd0fecccc6ba
+      internalID: 408692289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3946
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1ab00d7a68567468787767e4487a8c
+      internalID: 1362637354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3946
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7896e18997b8a344aad0245cb245059
+      internalID: -500364622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_10
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 3946
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c21ff5cc11ae5e468eb18507d0d279c
+      internalID: 2068021682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_11
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3946
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f37eea626e9ee54a89c16c501a6bac0
+      internalID: -1377350963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_12
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 3946
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aebe1fda8bfc044d8e414fbd0fc3ab7
+      internalID: 1966880759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_13
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 3946
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8914baf416f48584d852191337507a54
+      internalID: 1032550171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_14
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3946
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ec910287556364d9a1b40a4aff9380
+      internalID: -1762639331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_15
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 3946
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8508a2bdb94a5664e9e016b895f464a2
+      internalID: -233334756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3808
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c8638ba37f74e419d074c4e69f5c9e
+      internalID: 1600721823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3808
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a9cff13abb8784fa354e2f3abeda9e
+      internalID: 1847294682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_18
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 3808
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4279bae381ea94c46babc34f770fe955
+      internalID: 502125717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_19
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 3808
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ecc9823c36142429e212faf6875f25
+      internalID: -1260023832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_20
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3808
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b875bed104ed48c49bb74243b6011143
+      internalID: -1209536999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_21
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 3808
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e98c7c29588b245a78e78be546b155
+      internalID: -262587823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_22
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 3808
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05722d1299ecd8944a8dccf0b52f0a81
+      internalID: -390937786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_23
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3808
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c104a10c5a4a649a290245ef3cefee
+      internalID: -1006709857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_24
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 3808
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08121bf850ba0d9468d9966a44cf0380
+      internalID: 1952722911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_25
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6c790ceb7646245a4ad4d9ed64807e
+      internalID: 927646740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a05eec8deb70404cb8be5c530dc795f
+      internalID: -1203653831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_27
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 3670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a85a861ee8ef8458760d16a6a239d9
+      internalID: -793121854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_28
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 3670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90520866aae25c49bc132e8bac8b321
+      internalID: -1639828590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_29
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb66911514ae1d42a752b59a9a3f16c
+      internalID: -1851764385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_30
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 3670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460677a977e32f547891fb7fe8e27f41
+      internalID: 1134168462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_31
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 3670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f164864aa569fe04eb09163711cbc2dc
+      internalID: 173707422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_32
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37578f267663eab449ed86d35417adde
+      internalID: 134960081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_33
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 3670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb02725079da2384382aa50a2e9e308d
+      internalID: -538218930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_34
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fbf51450c1a234796197efdef18cbd
+      internalID: -2089207906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_35
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 3532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2e29fea5a26a9418893e6f84a128ad
+      internalID: -1911536179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_36
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166f0cc6dc06d9e4c93021774bfc1c7f
+      internalID: -219268808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_37
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 3532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703f56bb648ac73489f8a8c72f9e9a60
+      internalID: -2015314401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_38
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 3532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08018914aac128b42a63915d678296e4
+      internalID: -1051516938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_39
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ad835c1af41a547bf408ed2b14b81d
+      internalID: 1422982645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_40
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 3532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f6047a2d6f898468fd93e7e50aa507
+      internalID: -400338851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_41
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3394
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c18a3eb62c7568438a57fcd543f5a7a
+      internalID: 187265431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_42
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3394
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67433b8cd22b664a8719801b50bff03
+      internalID: 1195719417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_43
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 3394
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231d31746c7d1a243aee520c5f80c0a5
+      internalID: -575427578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_44
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 3394
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a064ce3f8854546863faef83e73d8b
+      internalID: 491505189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_45
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3394
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d4e8543a550e143aa8f22357b3eee9
+      internalID: 883484531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_46
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 3394
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b40dad7946263847be5a42328e2ff65
+      internalID: 379260302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_47
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 3394
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2d24a22b1ae1a4f8495332b5060eba
+      internalID: -176170748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_48
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3394
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f224e464fcaaf43ba9fd515ae2c480
+      internalID: 41803918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_49
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 3394
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4e1f93c0904204dae92ce06b09c36c
+      internalID: -1915105754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_50
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195bd3b9e7cacce4b8c464a3078f3ac7
+      internalID: -36437332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_51
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776ce7adc62f03e49a1ab73d0077558c
+      internalID: -48011670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_52
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 3256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d2f4a78f4466b4cb993fbafb62f00a
+      internalID: 2058400829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_53
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 3256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e8cf01428b66549a6ce2eff1d2c682
+      internalID: -889254920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_54
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b07d70acc9e5204989d07d6d256b873
+      internalID: -1858593529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_55
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 3256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c69f80f73aa98478aa8339fe44050d
+      internalID: -2074786748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_56
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 3256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3a3edf4d82d504f9efc0f409f24e6e
+      internalID: 1093829875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_57
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbe833a8170e8b479a40d2561af3c79
+      internalID: -1445070641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_58
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 3256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635008f8abac24d4d9ce1b90a56bc575
+      internalID: -369848241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_59
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3118
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d859f7456f68ea74eb73f979332a695a
+      internalID: 274873530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_60
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3118
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3392d3243cf21c54bbfbd5494f50a853
+      internalID: 356206855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_61
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 3118
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd24e8798c0e9a04f821d4e557a719f7
+      internalID: 1373486181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_62
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 3118
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f2d0da3e5b9d24a96a6b5fd32a1bbe
+      internalID: -256265599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_63
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3118
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03821f3d87f03364e83362736c215f07
+      internalID: -1471451032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_64
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 3118
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be6ee51f31dec84a8ae052cefa214d2
+      internalID: -302797198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_65
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 3118
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caefdc6ffa16093459f1b4f127c7c53f
+      internalID: -495189240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_66
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3118
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aee1ed320d5ba341920d70bdebc2cf4
+      internalID: 342119150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_67
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 3118
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f1cc62246590b42baec33130740102
+      internalID: 544571254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_68
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2980
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998eae9e4dbfa35469f3b10be230f85e
+      internalID: 494717537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_69
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2980
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8663dcccc0c9b43a16de93c006f2fd
+      internalID: -239339095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_70
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2980
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c259860696bc63409c16cccf3d7b2db
+      internalID: 1839703002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_71
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2980
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4aa3312b6f3dc42841c4d668d0678d
+      internalID: 199677272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_72
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2980
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2938f950cb4454847b92f8d0ba557f4f
+      internalID: -939372930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_73
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2980
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cd3dc49d646c04988e84851ecfeae5
+      internalID: 1817560489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_74
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2980
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d2858551f742641b9e2161482c3b60
+      internalID: 1871728480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_75
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2980
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ffdc4720ab6f74691361ff0b42c524
+      internalID: -1103974352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_76
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 2980
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5c187857c955041bfd55431eaf6ba2
+      internalID: 36696740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_77
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2842
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff676da44eaac20419d41d59682ba48f
+      internalID: 429121268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_78
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2842
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffee1da1e532b194087dd3f8aab973f9
+      internalID: -343194977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_79
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2842
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b662322d7d53b445af57696932be297
+      internalID: -1364690577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_80
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2842
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fead60a10b786624fb2b352f19c6362d
+      internalID: 930568377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_81
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2842
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ce93491fb79414ca203de787ff3f99
+      internalID: 1998173504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_82
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2842
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d34aff16ad64514392f97ce9c31e4ab
+      internalID: -412329658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_83
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2842
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11270d7f79d41084abff34c2a9d64c5d
+      internalID: -1409642494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_84
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2842
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c857fdd20e4b5439664cf63bda04bb
+      internalID: -1654558191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_85
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 2842
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f8095d90557ee47822ac9905bbd0d7
+      internalID: -1567234985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_86
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2704
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9059369481a61c44a1a61a4764ef632
+      internalID: -1846088898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_87
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2704
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69728eeb26abc924e9db041011bc732b
+      internalID: -1347258821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_88
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2704
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bbcae6e5b1104468eaf40f3947054b
+      internalID: 160160606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_89
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2704
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db637c660659c84f8fda473214e4365
+      internalID: 1213825615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_90
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2704
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a95a995ce0865f48ba0972c7fbdd235
+      internalID: -345178276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_91
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2704
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea6f2ca29b1a3b47a2011818912ef02
+      internalID: -2053207279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_92
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2704
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1348c5db32714a543bfd98028e9d8e66
+      internalID: -116377831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_93
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2704
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1beab4e0a852f4b9d68ba5c3e1f285
+      internalID: 898545365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_94
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 2704
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac33100a1e3555c49a3c903ed35395c7
+      internalID: 1181794219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_95
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2566
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f098d178ac8a1b439503d092a738f64
+      internalID: 481953766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_96
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2566
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd2fb05434073243890996c071994fd
+      internalID: -403492202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_97
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2566
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829c8e73e34e0454198b6e87eca73531
+      internalID: 1141877805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_98
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2566
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059b2d36a002240449d7f92cdfc5a3f9
+      internalID: -1653979149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_99
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2566
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912a9ec9a9d4b8648abc5f9e3e3aa03c
+      internalID: -1733225508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_100
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2566
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24a9dc7fe578d44189f31888c37355d
+      internalID: -768454267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_101
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2566
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a8d2a7790e0b34e872c96ac8951e32
+      internalID: 148569424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_102
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2566
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f27d90d08f32d34296b3b95c4f697da
+      internalID: -188864074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_103
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 2566
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42fa2104c595164b81458a46e5de877
+      internalID: -97529497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_104
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2428
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba22e27730b9689418fe10e83ab9624d
+      internalID: -1101576262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_105
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2428
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f888343185d972c459509d313a085035
+      internalID: -1085488415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_106
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2428
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772ef88975e33f24d9a0a5a7a0c78214
+      internalID: 163589495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_107
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2428
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc25c46c4bc2f54fb693d3dcc3227f3
+      internalID: -999645025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_108
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2428
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a0c7cbe5d1dd04fa683abd2f2a8249
+      internalID: -401762056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_109
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2428
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70aa9abe768b96459c3400bd044571d
+      internalID: 1147730500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_110
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2428
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd1ef2d8e0f1a941988ea0d45c91a01
+      internalID: 313220861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_111
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2428
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956d793812f5d5d45981fa0ed3fa0b34
+      internalID: 1884789232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_112
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 2428
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b793e5a26ab24014187803a8cdf40ae2
+      internalID: -1928523352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_113
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2290
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ebed98a6fa4784bb8534613e48ee39
+      internalID: -2107779664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_114
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2290
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a69e3d754a7ddc43a7a1d433bf6ae8a
+      internalID: -792920228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_115
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2290
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b552689e1d1ff149b65cf7e94c99a08
+      internalID: -1963230718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_116
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2290
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2b023d6af954246b4c92055861a3fc
+      internalID: -1465919381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_117
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2290
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0101524c81f75b48b66e186f8cabc78
+      internalID: -1653285811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_118
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2290
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1ce03998e95eb4d956315c26e1099d
+      internalID: -506056063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_119
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2290
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1a5ebf1d6d78f43af276c3d5ccbd1a
+      internalID: -713886315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_120
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2290
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7df350e62409d4196fc24ff01d55ca
+      internalID: -1908391193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_121
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 2290
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d845a8655a8a04a4b842c5009da6ca62
+      internalID: -874287758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_122
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2f1d985ac8ea24ca2be4d708ecd71a
+      internalID: -1770485838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_123
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605a8efdefacb144291900148332a9ed
+      internalID: 1482942402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_124
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c21b6795f1d89458706a83addf4e10
+      internalID: 954236460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_125
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e64da6320e8974e97c90a56e6b8080
+      internalID: 1352724900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_126
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4518d54ec44b4e4c9b8eff64fc28e92
+      internalID: 948193833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_127
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b048e750e66b75640bfb141e9d5afd92
+      internalID: 347415904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_128
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d17b4b219c97a43b962ad8b38787e4
+      internalID: 1517525376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_129
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeea92e2119bb27459569d5b4a017fe5
+      internalID: 1944383230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_130
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 2152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ab1f7ffae90254b87fe0260ec5b163
+      internalID: 45119864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_131
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45273e744e55f3548a3ff12e8d8fa1fc
+      internalID: 1273507888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_132
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c762fd6145749469fb5f6109345993
+      internalID: 1780954743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_133
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b18f25209b22f4585e32d7a8541b02
+      internalID: -1224293160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_134
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f337ff74bd0f44ab9090d23706eb90
+      internalID: 177880136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_135
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491ec8b9850b91342b0b47cba8533da4
+      internalID: -1637458548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_136
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadfa3edb7733f94ca36206ca8ab6e2f
+      internalID: 656835684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_137
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397755fde8ed2da44a4d8cab4cd69a15
+      internalID: 1815648585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_138
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10913d8e3cb4c3d47b90be7244ec7328
+      internalID: 1496490633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_139
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 2014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ec3cba62c8cd84487355ee1a80590f
+      internalID: -1016819542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_140
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1876
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bbc11c52af79547a5d77c04207927d
+      internalID: 892996417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_141
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1876
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4ff53f100a45942b07e014812b1a86
+      internalID: -470090149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_142
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1876
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d58c305659cab45a618211a0b295aa
+      internalID: 696980192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_143
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1876
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfc9b683778d82459ca954e0df370f1
+      internalID: 310284763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_144
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1876
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b14d9c760d39444fbf88ae40855ea09
+      internalID: 1305280717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_145
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1876
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43a80c795385ff4092f9530f487a88b
+      internalID: 647249967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_146
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1876
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c6ff1e5665422469ded2000381e6fc
+      internalID: -154563882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_147
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1876
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7dfb3dc2836dd44befcc781587388c
+      internalID: 1273379161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_148
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1876
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c32ec30038f94040ad5bbace100f945
+      internalID: -806732207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_149
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1738
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27700955b0efc6248ab6a236440ad82c
+      internalID: 1772277349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_150
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1738
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde824430d1a16f4db17e9651438782a
+      internalID: 474371091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_151
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1738
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5b8f6afbb27b342a5388389744b50f
+      internalID: 18888297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_152
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1738
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd955321292c4f5409467f3360208ed6
+      internalID: -387990813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_153
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1738
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afc91977bbb40e49b4d21c39a37c6b9
+      internalID: 1148623758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_154
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1738
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2289e0e61b358f248ac426857e83812a
+      internalID: 1032344092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_155
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1738
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1943e2d910a10944fad3f5d99959020f
+      internalID: -1442550594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_156
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1738
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47562fbc3a742a440b67e0b37f32b47e
+      internalID: 1493050328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_157
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1738
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86f55cffc335084ab61859f957e2fd6
+      internalID: -174873635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_158
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1600
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81afb1a38b5692c4cb046c348091b86d
+      internalID: 1263252484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_159
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1600
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e25ae06f29c4c44b48e11a0bb327bd
+      internalID: 947955540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_160
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1600
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a177d38969b1a648af6ebbeb12cfbef
+      internalID: 1483315343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_161
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1600
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b954eee5551504a8aafeee6ad1fe0a
+      internalID: 2024989022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_162
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1600
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf3f7113c2722d46a343c0f8756210b
+      internalID: 529434393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_163
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1600
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b6d02e0b6856143990e94f29d15ff8
+      internalID: 1863877721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_164
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1600
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1b9b9694c68a1439c3a8dcd38a2921
+      internalID: -289290709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_165
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1600
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2779fa9dad7912340b93bb8b652f8b9c
+      internalID: -994537546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_166
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1462
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbb651e5c693e648955823f10b781ba
+      internalID: -801707470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_167
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1462
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ca93d6f4ba5844ea3047ef982d77e9
+      internalID: 563916345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_168
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1462
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83838feb57548844a0f2a9ec995a8b5
+      internalID: 1608453360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_169
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1462
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e73134cf5db6645bc36274c6faf06b
+      internalID: -886139134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_170
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1462
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4c462585069b74f9d954573f4b5ef5
+      internalID: -535658708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_171
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1462
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452cd0ee7c2590046b5952e7b106ca3a
+      internalID: -497580858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_172
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1462
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a54708b2a9c5b549ba1b4602281b073
+      internalID: 558907280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_173
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1462
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df53af2b45a3cc84f9f2f4f0c62d324f
+      internalID: -2113876910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_174
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1462
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0313e16bd47b041ba3b0affdbbd194
+      internalID: -1951652423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_175
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1324
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d175d1947f8b78c4db0e4a783cffc987
+      internalID: 1602041548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_176
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1324
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5f6173368791146b0674c7f1bac9b2
+      internalID: -1989515632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_177
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1324
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75ef5349e1561b458b91a26ec791bfb
+      internalID: -1378196399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_178
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1324
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d42771d1b7fbd4c83be2f3d02d8df3
+      internalID: -1029306550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_179
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1324
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797f54f6291256b42b8bf5ecc07d4306
+      internalID: -1870016537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_180
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1324
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ddeadb5b61ec84eb638ac9c0967019
+      internalID: -1476668202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_181
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1324
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2cb3f947a29a049865f2ee59211cef
+      internalID: -1422391820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_182
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1324
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f856993bd0753664e994dd21b5f8a7b6
+      internalID: -1153536109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_183
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1324
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578fb0fb16a6ba147902c0b2a3222a61
+      internalID: 1715676961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_184
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1186
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467f7a00e2431964b8cc8d34760b5a52
+      internalID: -1389801790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_185
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1186
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ce323fd5325064f8bdf09c34003375
+      internalID: 1028840291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_186
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1186
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6547760107a39804fbfb3d38253e07f1
+      internalID: -103820025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_187
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1186
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ce5620bb7ff7149bfac87d87426536
+      internalID: -24677880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_188
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1186
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba27038c2269134cb68f33a466b8307
+      internalID: -1697962080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_189
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1186
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bb27c440f34d549aa2f51f4f6284be
+      internalID: 378919317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_190
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1186
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be54d600a57f894cb50b77042940366
+      internalID: -1609899956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_191
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1186
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f1e59c5171ed64299b8ec0148e33a9
+      internalID: -1376435053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_192
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1186
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f7f1fb30766e847b2f41beb3630d95
+      internalID: -1590654616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_193
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a13abec9a4fe964598044cace74e568
+      internalID: -383498687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_194
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ad9c0869ca63943922503c9ff07a3b
+      internalID: -1087834886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_195
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cc929138b07e34fa6616d941170bc2
+      internalID: 710026480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_196
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04b2feb5baf2f54d80acd7f8e89676e
+      internalID: -1350026032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_197
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972e584d947a85440a75c6a8933476bd
+      internalID: -1995092587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_198
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac319fa52a655d4dad962a70509bdb1
+      internalID: -1234295983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_199
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e2542f25e512b41b7800831e4114be
+      internalID: 981583590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_200
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1cdfc128fa8be4984551fc1681c3a8
+      internalID: 216384963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_201
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f72eff76666df4981318f86e025d18
+      internalID: 201655822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_202
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 910
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d49c2266faec04f87b816349af2ebd
+      internalID: -1530513738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_203
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 910
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5a9f86c7fa3ee4f8708bb6dc554b13
+      internalID: 1641152619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_204
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 910
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f778f45baea8b040909d80764e5d4d3
+      internalID: -1774762456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_205
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 910
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e114405b9a8454c8f95a545f224d47
+      internalID: 11153339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_206
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 910
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0a36b787cc46c4e84b0d94924b84b5
+      internalID: -536006542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_207
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 910
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca726a8415f56640aa31d411bfcc635
+      internalID: 43098277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_208
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 910
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479a12c73d5a48a46baa6851864a3af7
+      internalID: -1201256399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_209
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 910
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b734a3f84d6cc64aa148c031b7acaa1
+      internalID: 1894371971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_210
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 910
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9187bac8571f11541915b3459e35ead9
+      internalID: 335389572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_211
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 772
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f2740c111cf724fb8a3a2d7c04b65d
+      internalID: 1076455756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_212
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 772
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05f876e7653c9d409915ffabde34cbb
+      internalID: 1340145955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_213
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 772
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0eef3c6559e444986163cf32327737
+      internalID: -711221888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_214
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 772
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87024c568f71cb4ab43f17ea72db137
+      internalID: -1753708807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_215
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 772
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1036b95eb50e04a95cdfd760c80c01
+      internalID: 1363329560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_216
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 772
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c85d73695d66d4fa3570f250426a73
+      internalID: 1325805054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_217
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 772
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d003cce3f4c464ab96046e3a4a5740
+      internalID: 1776766405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_218
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 772
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6496707fda749ee4daab1a8aa26b8929
+      internalID: -1142282552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_219
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 772
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326c33399d047b94e9fe916d023a420a
+      internalID: 620518040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_220
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 634
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afedaaf052697b468eb7511980fd4da
+      internalID: -248571558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_221
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 634
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c31174c195687429eb0a2923bf6536
+      internalID: -665658892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_222
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 634
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e82c862b9ea385458f0402c4ac3acae
+      internalID: -1162909265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_223
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 634
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d428f5a9d01a19947b790dfdb4004e27
+      internalID: -262051700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_224
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 634
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a431222debfdd2a4a975193df524243e
+      internalID: 1781113473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_225
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 634
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710b68ce532cfc94d82b55bbb679be00
+      internalID: -992780060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_226
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 634
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61832cb80a175304d9c973f053eb655f
+      internalID: 1480805962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_227
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 634
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea6032fa99eda046a32f08e76d7958c
+      internalID: 1898583913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_228
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 634
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2465dab4cb87743af79da2e806d077
+      internalID: 526703317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_229
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 496
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab8a9f321901f24f8f8fa115064d348
+      internalID: -1135479458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_230
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 496
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c8a444f5121564ca5bf5d6da251f09
+      internalID: -123407907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_231
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 496
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7237d3f3116f30d45b525d8ec68b26af
+      internalID: 1954845959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_232
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 496
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6d81780f3d1fd4bb4c5e1fc187d5df
+      internalID: -553510030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_233
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 496
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d64e7f9c82e8114dbb8f112f9326af7
+      internalID: -2110194930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_234
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 496
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b4024a5c0355447bec290074ec598f
+      internalID: -995556182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_235
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 496
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462cb8fa885f17d46b3e582368de76f3
+      internalID: 913578004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_236
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 496
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08aff678043440a4cad7c1d108745d36
+      internalID: 1193852924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_237
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 496
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb7580c7242bb44c9c0e11b7512256c
+      internalID: 1109189857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_238
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 358
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928857541422eb748b5b7161f6cc95ba
+      internalID: 1203339299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_239
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 358
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0a4a53ec2609e4ba1bfb1afb0d2cb7
+      internalID: -2009895459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_240
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 358
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacc34e2ada44d143ad17222c273b1a7
+      internalID: 87700840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_241
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 358
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9117414f9dea50f479a6568db43fc5df
+      internalID: 2010454132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_242
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 358
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c645edaea733644c925aa1f7915180a
+      internalID: -1818759324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_243
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 358
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1564644335c294eb978270e932606f
+      internalID: 1857148483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_244
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 358
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e4ccb6dc52be540bcf0edce4899f03
+      internalID: 1565380398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_245
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 358
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d86ef8f759ffc468825059bc8257df
+      internalID: 938404881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_246
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 220
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f000bb09d96064ebd09c80438bfde7
+      internalID: 650997052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_247
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 220
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d959dd9a0f1599418b3f742026f9a16
+      internalID: 762473761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_248
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 220
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3366044db699341b5374ab6e53c7bf
+      internalID: 987593062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_249
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 220
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d9f3f735a28be40878b21d658ce5d4
+      internalID: -1143249023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_250
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 220
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d62698976b6bc45af196b3e322cfd2
+      internalID: 571909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_251
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 220
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8179eb9ca986c4b8a36ce7924207d8
+      internalID: -967919202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_252
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 220
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f911cf147d95c74e9b0e74729f9d205
+      internalID: -529057731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_253
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 82
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1e87dde0c78644f8338c76efc3f7e8
+      internalID: -349491648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_254
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 82
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dfa09e5f680fc499f2aba0238bef9a
+      internalID: -474988669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_255
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 82
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715d5e98998bf0d4e8419396c5892d34
+      internalID: -1691842712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldhillzone_256
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 82
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029ada60169655c4ca05c3312705f358
+      internalID: 1032614559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6cc8e000f0772d647ad462f211c082e0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      emeraldhillzone_0: -7547745529561268036
+      emeraldhillzone_1: -1808383528
+      emeraldhillzone_10: 2068021682
+      emeraldhillzone_100: -768454267
+      emeraldhillzone_101: 148569424
+      emeraldhillzone_102: -188864074
+      emeraldhillzone_103: -97529497
+      emeraldhillzone_104: -1101576262
+      emeraldhillzone_105: -1085488415
+      emeraldhillzone_106: 163589495
+      emeraldhillzone_107: -999645025
+      emeraldhillzone_108: -401762056
+      emeraldhillzone_109: 1147730500
+      emeraldhillzone_11: -1377350963
+      emeraldhillzone_110: 313220861
+      emeraldhillzone_111: 1884789232
+      emeraldhillzone_112: -1928523352
+      emeraldhillzone_113: -2107779664
+      emeraldhillzone_114: -792920228
+      emeraldhillzone_115: -1963230718
+      emeraldhillzone_116: -1465919381
+      emeraldhillzone_117: -1653285811
+      emeraldhillzone_118: -506056063
+      emeraldhillzone_119: -713886315
+      emeraldhillzone_12: 1966880759
+      emeraldhillzone_120: -1908391193
+      emeraldhillzone_121: -874287758
+      emeraldhillzone_122: -1770485838
+      emeraldhillzone_123: 1482942402
+      emeraldhillzone_124: 954236460
+      emeraldhillzone_125: 1352724900
+      emeraldhillzone_126: 948193833
+      emeraldhillzone_127: 347415904
+      emeraldhillzone_128: 1517525376
+      emeraldhillzone_129: 1944383230
+      emeraldhillzone_13: 1032550171
+      emeraldhillzone_130: 45119864
+      emeraldhillzone_131: 1273507888
+      emeraldhillzone_132: 1780954743
+      emeraldhillzone_133: -1224293160
+      emeraldhillzone_134: 177880136
+      emeraldhillzone_135: -1637458548
+      emeraldhillzone_136: 656835684
+      emeraldhillzone_137: 1815648585
+      emeraldhillzone_138: 1496490633
+      emeraldhillzone_139: -1016819542
+      emeraldhillzone_14: -1762639331
+      emeraldhillzone_140: 892996417
+      emeraldhillzone_141: -470090149
+      emeraldhillzone_142: 696980192
+      emeraldhillzone_143: 310284763
+      emeraldhillzone_144: 1305280717
+      emeraldhillzone_145: 647249967
+      emeraldhillzone_146: -154563882
+      emeraldhillzone_147: 1273379161
+      emeraldhillzone_148: -806732207
+      emeraldhillzone_149: 1772277349
+      emeraldhillzone_15: -233334756
+      emeraldhillzone_150: 474371091
+      emeraldhillzone_151: 18888297
+      emeraldhillzone_152: -387990813
+      emeraldhillzone_153: 1148623758
+      emeraldhillzone_154: 1032344092
+      emeraldhillzone_155: -1442550594
+      emeraldhillzone_156: 1493050328
+      emeraldhillzone_157: -174873635
+      emeraldhillzone_158: 1263252484
+      emeraldhillzone_159: 947955540
+      emeraldhillzone_16: 1600721823
+      emeraldhillzone_160: 1483315343
+      emeraldhillzone_161: 2024989022
+      emeraldhillzone_162: 529434393
+      emeraldhillzone_163: 1863877721
+      emeraldhillzone_164: -289290709
+      emeraldhillzone_165: -994537546
+      emeraldhillzone_166: -801707470
+      emeraldhillzone_167: 563916345
+      emeraldhillzone_168: 1608453360
+      emeraldhillzone_169: -886139134
+      emeraldhillzone_17: 1847294682
+      emeraldhillzone_170: -535658708
+      emeraldhillzone_171: -497580858
+      emeraldhillzone_172: 558907280
+      emeraldhillzone_173: -2113876910
+      emeraldhillzone_174: -1951652423
+      emeraldhillzone_175: 1602041548
+      emeraldhillzone_176: -1989515632
+      emeraldhillzone_177: -1378196399
+      emeraldhillzone_178: -1029306550
+      emeraldhillzone_179: -1870016537
+      emeraldhillzone_18: 502125717
+      emeraldhillzone_180: -1476668202
+      emeraldhillzone_181: -1422391820
+      emeraldhillzone_182: -1153536109
+      emeraldhillzone_183: 1715676961
+      emeraldhillzone_184: -1389801790
+      emeraldhillzone_185: 1028840291
+      emeraldhillzone_186: -103820025
+      emeraldhillzone_187: -24677880
+      emeraldhillzone_188: -1697962080
+      emeraldhillzone_189: 378919317
+      emeraldhillzone_19: -1260023832
+      emeraldhillzone_190: -1609899956
+      emeraldhillzone_191: -1376435053
+      emeraldhillzone_192: -1590654616
+      emeraldhillzone_193: -383498687
+      emeraldhillzone_194: -1087834886
+      emeraldhillzone_195: 710026480
+      emeraldhillzone_196: -1350026032
+      emeraldhillzone_197: -1995092587
+      emeraldhillzone_198: -1234295983
+      emeraldhillzone_199: 981583590
+      emeraldhillzone_2: -2000564300
+      emeraldhillzone_20: -1209536999
+      emeraldhillzone_200: 216384963
+      emeraldhillzone_201: 201655822
+      emeraldhillzone_202: -1530513738
+      emeraldhillzone_203: 1641152619
+      emeraldhillzone_204: -1774762456
+      emeraldhillzone_205: 11153339
+      emeraldhillzone_206: -536006542
+      emeraldhillzone_207: 43098277
+      emeraldhillzone_208: -1201256399
+      emeraldhillzone_209: 1894371971
+      emeraldhillzone_21: -262587823
+      emeraldhillzone_210: 335389572
+      emeraldhillzone_211: 1076455756
+      emeraldhillzone_212: 1340145955
+      emeraldhillzone_213: -711221888
+      emeraldhillzone_214: -1753708807
+      emeraldhillzone_215: 1363329560
+      emeraldhillzone_216: 1325805054
+      emeraldhillzone_217: 1776766405
+      emeraldhillzone_218: -1142282552
+      emeraldhillzone_219: 620518040
+      emeraldhillzone_22: -390937786
+      emeraldhillzone_220: -248571558
+      emeraldhillzone_221: -665658892
+      emeraldhillzone_222: -1162909265
+      emeraldhillzone_223: -262051700
+      emeraldhillzone_224: 1781113473
+      emeraldhillzone_225: -992780060
+      emeraldhillzone_226: 1480805962
+      emeraldhillzone_227: 1898583913
+      emeraldhillzone_228: 526703317
+      emeraldhillzone_229: -1135479458
+      emeraldhillzone_23: -1006709857
+      emeraldhillzone_230: -123407907
+      emeraldhillzone_231: 1954845959
+      emeraldhillzone_232: -553510030
+      emeraldhillzone_233: -2110194930
+      emeraldhillzone_234: -995556182
+      emeraldhillzone_235: 913578004
+      emeraldhillzone_236: 1193852924
+      emeraldhillzone_237: 1109189857
+      emeraldhillzone_238: 1203339299
+      emeraldhillzone_239: -2009895459
+      emeraldhillzone_24: 1952722911
+      emeraldhillzone_240: 87700840
+      emeraldhillzone_241: 2010454132
+      emeraldhillzone_242: -1818759324
+      emeraldhillzone_243: 1857148483
+      emeraldhillzone_244: 1565380398
+      emeraldhillzone_245: 938404881
+      emeraldhillzone_246: 650997052
+      emeraldhillzone_247: 762473761
+      emeraldhillzone_248: 987593062
+      emeraldhillzone_249: -1143249023
+      emeraldhillzone_25: 927646740
+      emeraldhillzone_250: 571909
+      emeraldhillzone_251: -967919202
+      emeraldhillzone_252: -529057731
+      emeraldhillzone_253: -349491648
+      emeraldhillzone_254: -474988669
+      emeraldhillzone_255: -1691842712
+      emeraldhillzone_256: 1032614559
+      emeraldhillzone_26: -1203653831
+      emeraldhillzone_27: -793121854
+      emeraldhillzone_28: -1639828590
+      emeraldhillzone_29: -1851764385
+      emeraldhillzone_3: -789766267
+      emeraldhillzone_30: 1134168462
+      emeraldhillzone_31: 173707422
+      emeraldhillzone_32: 134960081
+      emeraldhillzone_33: -538218930
+      emeraldhillzone_34: -2089207906
+      emeraldhillzone_35: -1911536179
+      emeraldhillzone_36: -219268808
+      emeraldhillzone_37: -2015314401
+      emeraldhillzone_38: -1051516938
+      emeraldhillzone_39: 1422982645
+      emeraldhillzone_4: -738908920
+      emeraldhillzone_40: -400338851
+      emeraldhillzone_41: 187265431
+      emeraldhillzone_42: 1195719417
+      emeraldhillzone_43: -575427578
+      emeraldhillzone_44: 491505189
+      emeraldhillzone_45: 883484531
+      emeraldhillzone_46: 379260302
+      emeraldhillzone_47: -176170748
+      emeraldhillzone_48: 41803918
+      emeraldhillzone_49: -1915105754
+      emeraldhillzone_5: 474087920
+      emeraldhillzone_50: -36437332
+      emeraldhillzone_51: -48011670
+      emeraldhillzone_52: 2058400829
+      emeraldhillzone_53: -889254920
+      emeraldhillzone_54: -1858593529
+      emeraldhillzone_55: -2074786748
+      emeraldhillzone_56: 1093829875
+      emeraldhillzone_57: -1445070641
+      emeraldhillzone_58: -369848241
+      emeraldhillzone_59: 274873530
+      emeraldhillzone_6: -1869656826
+      emeraldhillzone_60: 356206855
+      emeraldhillzone_61: 1373486181
+      emeraldhillzone_62: -256265599
+      emeraldhillzone_63: -1471451032
+      emeraldhillzone_64: -302797198
+      emeraldhillzone_65: -495189240
+      emeraldhillzone_66: 342119150
+      emeraldhillzone_67: 544571254
+      emeraldhillzone_68: 494717537
+      emeraldhillzone_69: -239339095
+      emeraldhillzone_7: 408692289
+      emeraldhillzone_70: 1839703002
+      emeraldhillzone_71: 199677272
+      emeraldhillzone_72: -939372930
+      emeraldhillzone_73: 1817560489
+      emeraldhillzone_74: 1871728480
+      emeraldhillzone_75: -1103974352
+      emeraldhillzone_76: 36696740
+      emeraldhillzone_77: 429121268
+      emeraldhillzone_78: -343194977
+      emeraldhillzone_79: -1364690577
+      emeraldhillzone_8: 1362637354
+      emeraldhillzone_80: 930568377
+      emeraldhillzone_81: 1998173504
+      emeraldhillzone_82: -412329658
+      emeraldhillzone_83: -1409642494
+      emeraldhillzone_84: -1654558191
+      emeraldhillzone_85: -1567234985
+      emeraldhillzone_86: -1846088898
+      emeraldhillzone_87: -1347258821
+      emeraldhillzone_88: 160160606
+      emeraldhillzone_89: 1213825615
+      emeraldhillzone_9: -500364622
+      emeraldhillzone_90: -345178276
+      emeraldhillzone_91: -2053207279
+      emeraldhillzone_92: -116377831
+      emeraldhillzone_93: 898545365
+      emeraldhillzone_94: 1181794219
+      emeraldhillzone_95: 481953766
+      emeraldhillzone_96: -403492202
+      emeraldhillzone_97: 1141877805
+      emeraldhillzone_98: -1653979149
+      emeraldhillzone_99: -1733225508
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
