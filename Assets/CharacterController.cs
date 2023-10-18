@@ -9,6 +9,7 @@ public class CharacterController : MonoBehaviour
     public float moveSpeed;
     public float decelRate = 0.2f;
     public int boostLeft = 5;
+    public float homeSpeed = 5;
 
     public bool inBall = false;
     public bool jumped = false;
@@ -24,12 +25,10 @@ public class CharacterController : MonoBehaviour
     private Rigidbody2D body;
     private Animator anim;
 
+    private bool homeRight = false, homeUp = false;
+
     //I thought coyote started with a k so that's what the k in ktime is for whoops
     private int kTime = 0;
-
-    public float boostSpeed = 10;
-    private float boostBonus;
-    private bool boostHeld = false;
 
     private Vector3 homeTo = new Vector3(0,0,0);
     private int homingCoolDown = 0;
@@ -41,21 +40,81 @@ public class CharacterController : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         moveSpeed = maxSpeed;
-        boostBonus = 0;
-        boostHeld = false;
+        homingCoolDown = 0;
     }
 
     void FixedUpdate()
     {
+        float xVel = 0;
 
         if (homeTo == new Vector3(0, 0, 0)) homingCoolDown = 0;
         else if (homingCoolDown > 0) homingCoolDown -= 1;
         if (homingCoolDown == 0) homeTo = new Vector3(0, 0, 0);
+        //Debug.Log("cooldown: " + homingCoolDown + " greater than 0: " + (homingCoolDown > 0));
+        if (homingCoolDown > 0)
+        {
+            //
+            //Debug.Log("Right: " + homeRight + " UP: " + homeUp);
+
+            //Debug.Log(transform.position.x < homeTo.x);
+            if (transform.position.x < homeTo.x)
+            {
+                if (!homeRight)
+                {
+                    Debug.Log(homeTo.x);
+                    transform.position = new Vector3(homeTo.x, transform.position.y, 0);
+                }
+                else
+                {
+                    Debug.Log("homeriht");
+                    xVel = homeSpeed;
+                }
+            }
+            else if (transform.position.x > homeTo.x)
+            {
+                if (homeRight)
+                {
+                    Debug.Log(homeTo.x);
+                    transform.position = new Vector3(homeTo.x, transform.position.y, 0);
+                }
+                else
+                {
+                    Debug.Log("homeleft");
+                    xVel = -homeSpeed;
+                }
+            }
+
+
+            if (transform.position.y < homeTo.y)
+            {
+                if (!homeUp)
+                {
+                    Debug.Log("!homeUp");
+                    transform.position = new Vector3(transform.position.x, homeTo.y, 0);
+                }
+                else
+                {
+                    body.velocityY = homeSpeed;
+                }
+            }
+            else if (transform.position.y > homeTo.y)
+            {
+                if (homeUp)
+                {
+                    Debug.Log("homeUp");
+                    transform.position = new Vector3(transform.position.x, homeTo.y, 0);
+                }
+                else
+                {
+                    body.velocityY = -homeSpeed;
+                }
+            }
+        }
 
 
         float horizontalInput = Input.GetAxis("Horizontal") * moveSpeed;
 
-        isGrounded = Physics2D.OverlapBox(groundCheckPoint.position, new Vector2(0.1f, 0.2f), 0, whatIsGround);
+        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckRadius, whatIsGround);//Physics2D.OverlapBox(groundCheckPoint.position, new Vector2(0.1f, 0.2f), 0, whatIsGround);
         if (isGrounded)
         {
             inBall = false;
@@ -66,12 +125,8 @@ public class CharacterController : MonoBehaviour
             kTime -= 1;
         }
         // Handle movement
-        body.velocityX = horizontalInput;
-        if (body.velocityX != 0) body.velocityX += boostBonus * posOrNeg(body.velocityX);
-        else body.velocityX += boostBonus;
-
-        if (boostBonus > 0) boostBonus -= decelRate; //reduce the bonus added by boosting 
-        if (boostBonus < 0) boostBonus = 0; // I feel like it might just be dumb sometimes so I'm adding this, i'm not paranoided you are
+        xVel += horizontalInput;
+        body.velocityX = xVel;
 
         // Jumping
         if ((isGrounded || kTime>0) && Input.GetButton("Jump"))
@@ -82,29 +137,16 @@ public class CharacterController : MonoBehaviour
             kTime = 0;
         }
 
-        if(Physics2D.OverlapCircle(transform.position, balloonCheckRadius, whatIsBalloon))
+        //if (Physics2D.OverlapCircle(transform.position, balloonCheckRadius, whatIsBalloon))
 
-        //debug dbeug dbeug bduegd bdugedb dbugeb debuvbu debug dbuegd bdugeb dbuegb dbuebd debuby
-        //Debug.Log("Boost Left: " + boostLeft);
-        //Debug.Log("Boost Bonus: " + boostBonus);
-        //Debug.Log("PressShift: " + Input.GetKey(KeyCode.LeftShift));
 
-        if (boostHeld) boostHeld = Input.GetKey(KeyCode.LeftShift);
-
-        if (Input.GetKey(KeyCode.LeftShift) && boostLeft>0 && boostBonus==0 && !boostHeld)
-        {
-            boostBonus = boostSpeed;
-            boostLeft -= 1;
-            boostHeld = true;
-        }
-
-        //reset player if they fall down too fawr :(
-        if(transform.position.y < -20)
-        {
-            body.velocityX = 0;
-            body.velocityY = 0;
-            transform.position = new Vector3(0, 0, 0);
-        }
+            //reset player if they fall down too fawr :(
+            if (transform.position.y < -20)
+            {
+                body.velocityX = 0;
+                body.velocityY = 0;
+                transform.position = new Vector3(0, 0, 0);
+            }
     }
 
     //returns 1 if number is positive, -1 if negative, 0 if 0, wait am I even gonna use this, like I thought I needed it but now idk, ah well, i'll keep it just incase. nvm I used it
@@ -116,8 +158,25 @@ public class CharacterController : MonoBehaviour
 
     public void startHoming(Vector3 balloonPos)
     {
-        homeTo = balloonPos;
-        homingCoolDown = 100;
+        Debug.Log(balloonPos);
+        if(homingCoolDown == 0)
+        {
+            homeTo = balloonPos;
+            homingCoolDown = 20 ;
+            if (transform.position.x < homeTo.x) homeRight = true;
+            else homeRight = false;
+            if (transform.position.y < homeTo.y) homeUp = true;
+            else homeUp = false;
+        }
+    }
+    void OnCollisionEnter2D(Collision2D collider)
+    {
+        if (collider.gameObject.tag == "Balloon")
+        {
+            body.velocityY = 10;
+            homingCoolDown = 0;
+            homeTo = new Vector3(0, 0, 0);
+        }
     }
 }
 
