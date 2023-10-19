@@ -61,12 +61,10 @@ public class CharacterController : MonoBehaviour
             {
                 if (!homeRight)
                 {
-                    Debug.Log(homeTo.x);
                     transform.position = new Vector3(homeTo.x, transform.position.y, 0);
                 }
                 else
                 {
-                    Debug.Log("homeriht");
                     xVel = homeSpeed;
                 }
             }
@@ -74,12 +72,10 @@ public class CharacterController : MonoBehaviour
             {
                 if (homeRight)
                 {
-                    Debug.Log(homeTo.x);
                     transform.position = new Vector3(homeTo.x, transform.position.y, 0);
                 }
                 else
                 {
-                    Debug.Log("homeleft");
                     xVel = -homeSpeed;
                 }
             }
@@ -89,7 +85,6 @@ public class CharacterController : MonoBehaviour
             {
                 if (!homeUp)
                 {
-                    Debug.Log("!homeUp");
                     transform.position = new Vector3(transform.position.x, homeTo.y, 0);
                 }
                 else
@@ -101,7 +96,6 @@ public class CharacterController : MonoBehaviour
             {
                 if (homeUp)
                 {
-                    Debug.Log("homeUp");
                     transform.position = new Vector3(transform.position.x, homeTo.y, 0);
                 }
                 else
@@ -126,7 +120,13 @@ public class CharacterController : MonoBehaviour
         }
         // Handle movement
         xVel += horizontalInput;
-        body.velocityX = xVel;
+        if (homingCoolDown > 0)
+            xVel = 0;
+        Debug.Log(xVel);
+        body.AddForce(new Vector2(xVel, 0));
+        xVel = 0;
+        //if(!isGrounded)
+        //    body.AddForce(new Vector2(0, body.gravityScale));
 
         // Jumping
         if ((isGrounded || kTime>0) && Input.GetButton("Jump"))
