@@ -33,6 +33,10 @@ public class CharacterController : MonoBehaviour
     private Vector3 homeTo = new Vector3(0,0,0);
     private int homingCoolDown = 0;
 
+    public BoxCollider2D coll;
+
+    public SpriteRenderer sprite;
+
 
     // Start is called before the first frame update
     void Start()
@@ -46,85 +50,16 @@ public class CharacterController : MonoBehaviour
     void FixedUpdate()
     {
         float xVel = 0;
-
-        if (homeTo == new Vector3(0, 0, 0)) homingCoolDown = 0;
-        else if (homingCoolDown > 0) homingCoolDown -= 1;
-        if (homingCoolDown == 0) homeTo = new Vector3(0, 0, 0);
-        //Debug.Log("cooldown: " + homingCoolDown + " greater than 0: " + (homingCoolDown > 0));
-        if (homingCoolDown > 0)
-        {
-            //
-            //Debug.Log("Right: " + homeRight + " UP: " + homeUp);
-
-            //Debug.Log(transform.position.x < homeTo.x);
-            if (transform.position.x < homeTo.x)
-            {
-                if (!homeRight)
-                {
-                    transform.position = new Vector3(homeTo.x, transform.position.y, 0);
-                }
-                else
-                {
-                    xVel = homeSpeed;
-                }
-            }
-            else if (transform.position.x > homeTo.x)
-            {
-                if (homeRight)
-                {
-                    transform.position = new Vector3(homeTo.x, transform.position.y, 0);
-                }
-                else
-                {
-                    xVel = -homeSpeed;
-                }
-            }
-
-
-            if (transform.position.y < homeTo.y)
-            {
-                if (!homeUp)
-                {
-                    transform.position = new Vector3(transform.position.x, homeTo.y, 0);
-                }
-                else
-                {
-                    body.velocityY = homeSpeed;
-                }
-            }
-            else if (transform.position.y > homeTo.y)
-            {
-                if (homeUp)
-                {
-                    transform.position = new Vector3(transform.position.x, homeTo.y, 0);
-                }
-                else
-                {
-                    body.velocityY = -homeSpeed;
-                }
-            }
-        }
-
+        
 
         float horizontalInput = Input.GetAxis("Horizontal") * moveSpeed;
+        float verticalInput = Input.GetAxis("Vertical") * moveSpeed;
+        if (horizontalInput < 0)
+            sprite.flipX = true;
+        else if (horizontalInput > 0)
+            sprite.flipX = false;
 
-        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckRadius, whatIsGround);//Physics2D.OverlapBox(groundCheckPoint.position, new Vector2(0.1f, 0.2f), 0, whatIsGround);
-        if (isGrounded)
-        {
-            inBall = false;
-            kTime = 20;
-        }
-        else if(kTime > 0)
-        {
-            kTime -= 1;
-        }
-        // Handle movement
-        xVel += horizontalInput;
-        if (homingCoolDown > 0)
-            xVel = 0;
-        Debug.Log(xVel);
-        body.AddForce(new Vector2(xVel, 0));
-        xVel = 0;
+        body.velocity = new Vector2(horizontalInput, verticalInput);
         //if(!isGrounded)
         //    body.AddForce(new Vector2(0, body.gravityScale));
 
@@ -143,9 +78,7 @@ public class CharacterController : MonoBehaviour
             //reset player if they fall down too fawr :(
             if (transform.position.y < -20)
             {
-                body.velocityX = 0;
-                body.velocityY = 0;
-                transform.position = new Vector3(0, 0, 0);
+            kill();
             }
     }
 
@@ -169,6 +102,14 @@ public class CharacterController : MonoBehaviour
             else homeUp = false;
         }
     }
+
+    public void kill()
+    {
+        body.velocityX = 0;
+        body.velocityY = 0;
+        transform.position = new Vector3(0, 0, 0);
+    }
+
     void OnCollisionEnter2D(Collision2D collider)
     {
         if (collider.gameObject.tag == "Balloon")
@@ -177,6 +118,9 @@ public class CharacterController : MonoBehaviour
             homingCoolDown = 0;
             homeTo = new Vector3(0, 0, 0);
         }
+        else if (collider.gameObject.tag == "Spike")
+        {
+            kill();
+        }
     }
 }
-
