@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterController : MonoBehaviour
 {
     public float jumpForce = 10.0f;
-    public float maxSpeed = 10f;
+    public float normalSpeed = 10f;
     public float moveSpeed;
     public float decelRate = 0.2f;
     public int boostLeft = 5;
@@ -37,13 +37,15 @@ public class CharacterController : MonoBehaviour
 
     public SpriteRenderer sprite;
 
+    public GameManager gameManager;
+
 
     // Start is called before the first frame update
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        moveSpeed = maxSpeed;
+        moveSpeed = normalSpeed;
         homingCoolDown = 0;
     }
 
@@ -82,6 +84,11 @@ public class CharacterController : MonoBehaviour
             }
     }
 
+    private void Update()
+    {
+        
+    }
+
     //returns 1 if number is positive, -1 if negative, 0 if 0, wait am I even gonna use this, like I thought I needed it but now idk, ah well, i'll keep it just incase. nvm I used it
     float posOrNeg(float num)
     {
@@ -108,6 +115,7 @@ public class CharacterController : MonoBehaviour
         body.velocityX = 0;
         body.velocityY = 0;
         transform.position = new Vector3(0, 0, 0);
+        gameManager.resetGame();
     }
 
     void OnCollisionEnter2D(Collision2D collider)

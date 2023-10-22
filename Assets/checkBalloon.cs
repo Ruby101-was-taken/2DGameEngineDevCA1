@@ -34,4 +34,9 @@ public class checkBalloon : MonoBehaviour
             balloonPos = collider.transform.position;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+    }
 }
