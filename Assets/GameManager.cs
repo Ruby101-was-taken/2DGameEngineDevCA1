@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,12 +15,14 @@ public class GameManager : MonoBehaviour
 
     private int coin;
 
-    public Image speedArrow;
+    public RawImage speedArrow;
+
+    [HideInInspector] public bool swicthOn;
 
     // Start is called before the first frame update
     void Awake()
     {
-        resetGame();
+        resetGame(false);
     }
 
     // Update is called once per frame
@@ -44,13 +47,16 @@ public class GameManager : MonoBehaviour
         return mins + ":" + secs;
     }
 
-    public void resetGame()
+    public void resetGame(bool resetScene)
     {
         time = 0f;
         coin = 0;
         player.moveSpeed = player.normalSpeed;
         speedArrow.rectTransform.rotation = Quaternion.Euler(0, 0, 130);
         coinText.text = "Coins: 0";
+        swicthOn = true;
+        if (resetScene)
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void collectCoin(int amount)
@@ -63,6 +69,23 @@ public class GameManager : MonoBehaviour
         speedArrow.rectTransform.rotation = Quaternion.Euler(0, 0, 130-player.moveSpeed*2);
 
         if (coin < 0)
+        {
+            player.kill();
+        }
+    }
+
+    public void removeCoins()
+    {
+        if (coin > 0)
+        {
+            coin = 0;
+            coinText.text = "Coins: " + coin;
+
+            player.moveSpeed = player.normalSpeed;
+
+            speedArrow.rectTransform.rotation = Quaternion.Euler(0, 0, 130 - player.moveSpeed * 2);
+        }
+        else
         {
             player.kill();
         }

@@ -115,7 +115,7 @@ public class CharacterController : MonoBehaviour
         body.velocityX = 0;
         body.velocityY = 0;
         transform.position = new Vector3(0, 0, 0);
-        gameManager.resetGame();
+        gameManager.resetGame(true);
     }
 
     void OnCollisionEnter2D(Collision2D collider)
@@ -129,6 +129,14 @@ public class CharacterController : MonoBehaviour
         else if (collider.gameObject.tag == "Spike")
         {
             kill();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.tag == "RemoveCoin")
+        {
+            gameManager.removeCoins();
         }
     }
 }
