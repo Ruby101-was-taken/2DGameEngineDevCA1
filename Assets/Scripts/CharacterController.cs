@@ -59,6 +59,9 @@ public class CharacterController : MonoBehaviour
 
         float horizontalInput = Input.GetAxis("Horizontal") * moveSpeed;
         float verticalInput = Input.GetAxis("Vertical") * moveSpeed;
+
+        anim.SetBool("Running", (horizontalInput != 0 || verticalInput != 0));
+
         if (canMove)
         {
             if (horizontalInput < 0)

@@ -7,9 +7,15 @@ public class coin : MonoBehaviour
     public SpriteRenderer sprite;
     public CircleCollider2D coll;
     public GameManager gameManager;
+    public TitleGameManager titleGameManager;
+
+    [SerializeField] bool onTitle = false;
     private void Start()
     {
-        gameManager = FindObjectOfType<GameManager>();
+        if(!onTitle)
+            gameManager = FindObjectOfType<GameManager>();
+        else
+            titleGameManager = FindObjectOfType<TitleGameManager>();
         coll = GetComponent<CircleCollider2D>();
         sprite = GetComponent<SpriteRenderer>();
         resetSelf();
@@ -29,7 +35,10 @@ public class coin : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             collectSelf();
-            gameManager.collectCoin(1);
+            if(!onTitle)
+                gameManager.collectCoin(1);
+            else
+                titleGameManager.collectCoin(1);
         }
     }
 
