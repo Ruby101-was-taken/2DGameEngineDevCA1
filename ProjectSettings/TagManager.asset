@@ -9,6 +9,7 @@ TagManager:
   - Spike
   - Coin
   - RemoveCoin
+  - Goal
   layers:
   - Default
   - TransparentFX

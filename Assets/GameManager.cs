@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private resultManager resultManager;
     [HideInInspector] public float time;
     public TMP_Text timeText;
     public TMP_Text coinText;
@@ -18,6 +19,11 @@ public class GameManager : MonoBehaviour
     public RawImage speedArrow;
 
     [HideInInspector] public bool swicthOn;
+
+    [SerializeField] private Canvas HUD;
+    [SerializeField] private Canvas results;
+
+    private float finalTime = 0;
 
     // Start is called before the first frame update
     void Awake()
@@ -49,6 +55,8 @@ public class GameManager : MonoBehaviour
 
     public void resetGame(bool resetScene)
     {
+        HUD.enabled = true;
+        results.enabled = false;
         time = 0f;
         coin = 0;
         player.moveSpeed = player.normalSpeed;
@@ -89,5 +97,12 @@ public class GameManager : MonoBehaviour
         {
             player.kill();
         }
+    }
+
+    public void finishLevel()
+    {
+        results.enabled = true;
+        HUD.enabled = false;
+        resultManager.getResults(time, generateTimeText());
     }
 }

@@ -39,10 +39,13 @@ public class CharacterController : MonoBehaviour
 
     public GameManager gameManager;
 
+    private bool canMove = true;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        canMove = true;
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         moveSpeed = normalSpeed;
@@ -56,23 +59,18 @@ public class CharacterController : MonoBehaviour
 
         float horizontalInput = Input.GetAxis("Horizontal") * moveSpeed;
         float verticalInput = Input.GetAxis("Vertical") * moveSpeed;
-        if (horizontalInput < 0)
-            sprite.flipX = true;
-        else if (horizontalInput > 0)
-            sprite.flipX = false;
+        if (canMove)
+        {
+            if (horizontalInput < 0)
+                sprite.flipX = true;
+            else if (horizontalInput > 0)
+                sprite.flipX = false;
 
-        body.velocity = new Vector2(horizontalInput, verticalInput);
+            body.velocity = new Vector2(horizontalInput, verticalInput);
+        }
         //if(!isGrounded)
         //    body.AddForce(new Vector2(0, body.gravityScale));
 
-        // Jumping
-        if ((isGrounded || kTime>0) && Input.GetButton("Jump"))
-        {
-            inBall = true;
-            isGrounded = false;
-            body.velocityY = jumpForce;
-            kTime = 0;
-        }
 
         //if (Physics2D.OverlapCircle(transform.position, balloonCheckRadius, whatIsBalloon))
 
@@ -82,12 +80,16 @@ public class CharacterController : MonoBehaviour
             {
             kill();
             }
+
     }
 
     private void Update()
     {
-        
+
+        if (Input.GetKeyDown(KeyCode.R))
+            gameManager.resetGame(true);
     }
+        
 
     //returns 1 if number is positive, -1 if negative, 0 if 0, wait am I even gonna use this, like I thought I needed it but now idk, ah well, i'll keep it just incase. nvm I used it
     float posOrNeg(float num)
@@ -128,7 +130,7 @@ public class CharacterController : MonoBehaviour
         }
         else if (collider.gameObject.tag == "Spike")
         {
-            kill();
+            gameManager.collectCoin(-10);
         }
     }
 
@@ -137,6 +139,11 @@ public class CharacterController : MonoBehaviour
         if (collider.gameObject.tag == "RemoveCoin")
         {
             gameManager.removeCoins();
+        }
+        if (collider.gameObject.tag == "Goal")
+        {
+            canMove = false;
+            gameManager.finishLevel();
         }
     }
 }
