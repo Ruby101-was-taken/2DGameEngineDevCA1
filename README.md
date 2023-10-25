@@ -2,7 +2,7 @@
 
 
  Video:
-https://youtu.be/foMZtG0g8ng
+[https://youtu.be/foMZtG0g8ng](https://youtu.be/LxNbZy1VsMQ)
 
 
 Assest made by me unless stated below
