@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private audioManager SFX;
+    [SerializeField] AudioSource music;
     [SerializeField] private resultManager resultManager;
     [HideInInspector] public float time;
     public TMP_Text timeText;
@@ -22,8 +24,6 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private Canvas HUD;
     [SerializeField] private Canvas results;
-
-    private float finalTime = 0;
 
     // Start is called before the first frame update
     void Awake()
@@ -71,15 +71,20 @@ public class GameManager : MonoBehaviour
     {
         coin += amount;
         coinText.text = "Coins: " + coin;
-
         player.moveSpeed += (player.normalSpeed * 0.1f) * amount; //increase player speed for every coin
+        player.anim.speed += 0.1f * amount; //speed up player animation
+
+        music.pitch += 0.005f * amount; //speeds up music when getting faster
 
         speedArrow.rectTransform.rotation = Quaternion.Euler(0, 0, 130-player.moveSpeed*2); //updates spedometer arrow
 
         if (coin < 0)
         {
+            SFX.Play("hurt");
             player.kill(); //kills if the player doesn't have enough coins
         }
+        else if (amount > 0) SFX.Play("coin");
+        else if (amount < 0) SFX.Play("evilcoin");
     }
 
     public void removeCoins()
@@ -96,6 +101,7 @@ public class GameManager : MonoBehaviour
 
     public void finishLevel()
     { //does the opposite of lines 58 & 59 (line numbers subject to change T's&C's apply)
+        music.pitch = 1;
         results.enabled = true;
         HUD.enabled = false;
         //starts the results manager's stuff

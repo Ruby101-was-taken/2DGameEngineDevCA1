@@ -23,7 +23,7 @@ public class CharacterController : MonoBehaviour
 
     [HideInInspector] public bool isGrounded = false;
     private Rigidbody2D body;
-    private Animator anim;
+    [HideInInspector]public Animator anim;
 
     private bool homeRight = false, homeUp = false;
 
@@ -41,6 +41,8 @@ public class CharacterController : MonoBehaviour
 
     private bool canMove = true;
 
+    [SerializeField] private Sprite die;
+
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +51,7 @@ public class CharacterController : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         moveSpeed = normalSpeed;
+        anim.speed = 0.3f; //slows the player animation so speed increase is better :D
     }
 
     void FixedUpdate()
@@ -83,8 +86,8 @@ public class CharacterController : MonoBehaviour
     }
         
 
-    //returns 1 if number is positive, -1 if negative, 0 if 0, wait am I even gonna use this, like I thought I needed it but now idk, ah well, i'll keep it just incase. nvm I used it - nvm again I never ended up using it, pretty cool tho
-    float posOrNeg(float num)
+    //returns 1 if number is positive, -1 if negative, 0 if 0, wait am I even gonna use this, like I thought I needed it but now idk, ah well, i'll keep it just incase. - nvm I used it - nvm again I never ended up using it, pretty cool tho - I USED IT YEAAAAAAAAAAAAAAAAA - False alarm..., it continues to go unused
+    public float posOrNeg(float num)
     {
         if (num == 0) return 0;
         else return Mathf.Abs(num) / num;
@@ -100,6 +103,7 @@ public class CharacterController : MonoBehaviour
     {if (collider.gameObject.tag == "Spike")
         {
             gameManager.collectCoin(-10);
+            sprite.sprite = die;
         }
     }
 

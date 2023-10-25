@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
 public class blockSwitch : MonoBehaviour
 {
-
+    [SerializeField] audioManager SFX;
     public bool isOn = true;
     public GameManager gameManager;
 
@@ -42,6 +42,7 @@ public class blockSwitch : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         { //toggles the gamemanger's switch bool to whatever the isOn was set to
+            SFX.Play("switch");
             gameManager.swicthOn = isOn;
         }
     }

@@ -7,14 +7,19 @@ using TMPro;
 public class resultManager : MonoBehaviour
 {
     [SerializeField] private GameManager gameManager;
+    [SerializeField] private audioManager SFX;
 
     [SerializeField] private TMP_Text finalTime;
     [SerializeField] private TMP_Text rank;
     [SerializeField] private TMP_Text allRank;
 
+    private string winLoose;
+
     bool onResults = false;
     private float revealCounter = 3f;
     private float time;
+
+    private bool stamped = false, celebrate = false;
 
     private void Start()
     {
@@ -37,45 +42,57 @@ public class resultManager : MonoBehaviour
     {
         if (revealCounter <= 1)
         {
-            //checks rank compared to set times, then sets text and shows it
-            if (time <= 29)
+            if (!stamped)
             {
+                SFX.Play("stamp");
+                stamped = true;
+            }
+            //checks rank compared to set times, then sets text and shows it
+            if (time <= 30)
+            {
+                winLoose = "win";
                 Debug.Log("S");
                 rank.text = "S";
-                rank.color = new Color(255, 190, 0);
             }
-            else if (time <= 39)
+            else if (time <= 40)
             {
+                winLoose = "win";
                 Debug.Log("A");
                 rank.text = "A";
-                rank.color = new Color(255, 255, 0);
             }
-            else if (time <= 45)
+            else if (time <= 46)
             {
+                winLoose = "loose";
                 Debug.Log("B");
                 rank.text = "B";
-                rank.color = new Color(153, 153, 153);
             }
-            else if (time <= 60)
+            else if (time <= 61)
             {
+                winLoose = "loose";
                 Debug.Log("C");
                 rank.text = "C";
-                rank.color = new Color(153, 92, 70);
             }
-            else if (time <= 90)
+            else if (time <= 91)
             {
+                winLoose = "loose";
                 Debug.Log("D");
                 rank.text = "D";
-                rank.color = new Color(255, 40, 0);
             }
             else
             {
+                winLoose = "loose";
                 Debug.Log("E");
                 rank.text = "E";
-                rank.color = new Color(63, 16, 0);
             }
-            if(revealCounter <= 0)
-                allRank.enabled = true;
+            allRank.enabled = true;
+            if (revealCounter <= 0) { 
+                rank.enabled = true;
+                if (!celebrate)
+                {
+                    SFX.Play(winLoose);
+                    celebrate = true;
+                }
+            }
             else
                 revealCounter -= Time.deltaTime;
         }   

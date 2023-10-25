@@ -9,6 +9,7 @@ public class TitleGameManager : MonoBehaviour
 {
 
     //This is a dumbed down version of the gamemanger that is usually used, so that it works in the titlescreen
+    [SerializeField] private audioManager SFX;
 
     public CharacterController player; 
 
@@ -33,7 +34,8 @@ public class TitleGameManager : MonoBehaviour
     public void collectCoin(int amount)
     {
         coin += amount;
-
+        SFX.Play("coin");
+        player.anim.speed += 0.1f * amount;
         player.moveSpeed += (player.normalSpeed * 0.1f) * amount;
     }
 }
