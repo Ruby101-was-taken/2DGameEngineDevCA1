@@ -25,13 +25,7 @@ public class CharacterController : MonoBehaviour
     private Rigidbody2D body;
     [HideInInspector]public Animator anim;
 
-    private bool homeRight = false, homeUp = false;
 
-    //I thought coyote started with a k so that's what the k in ktime is for whoops
-    private int kTime = 0;
-
-    private Vector3 homeTo = new Vector3(0,0,0);
-    private int homingCoolDown = 0;
 
     public BoxCollider2D coll;
 
