@@ -25,7 +25,7 @@ public class moveBox : MonoBehaviour
     void Update()
     {
         if (leaveStart)
-        {
+        { //checks if leaving the start position, then it adds to the x/y, depending of the moveside bool
             if (moveSide)
             {
                 transform.position = new Vector3(transform.position.x + (speed * Time.deltaTime), transform.position.y, 0);
@@ -44,7 +44,7 @@ public class moveBox : MonoBehaviour
             }
         }
         else
-        {
+        { //this moves it back to the start pos
             if (moveSide)
             {
                 transform.position = new Vector3(transform.position.x - (speed * Time.deltaTime), transform.position.y, 0);

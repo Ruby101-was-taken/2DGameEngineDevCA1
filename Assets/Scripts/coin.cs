@@ -12,7 +12,7 @@ public class coin : MonoBehaviour
     [SerializeField] bool onTitle = false;
     private void Start()
     {
-        if(!onTitle)
+        if(!onTitle) // if the script is in the prefab for title screen coins, it looks for a titleGameManager, otherwise we look for a regular gamemanager
             gameManager = FindObjectOfType<GameManager>();
         else
             titleGameManager = FindObjectOfType<TitleGameManager>();

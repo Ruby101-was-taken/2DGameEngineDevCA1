@@ -24,7 +24,8 @@ public class resultManager : MonoBehaviour
 
     public void getResults(float time, string timeText)
     {
-        allRank.enabled = false;
+        rank.enabled = false;
+        allRank.enabled = false; //makes sure the rank and rank list is hidden on start
         finalTime.text = "Final Time\n" + timeText;
 
         onResults = true;
@@ -36,6 +37,7 @@ public class resultManager : MonoBehaviour
     {
         if (revealCounter <= 1)
         {
+            //checks rank compared to set times, then sets text and shows it
             if (time <= 29)
             {
                 Debug.Log("S");
@@ -78,6 +80,7 @@ public class resultManager : MonoBehaviour
                 revealCounter -= Time.deltaTime;
         }   
         else if(onResults){
+            //counts the timer down only if on results sreen
             revealCounter -= Time.deltaTime;
         }
     }

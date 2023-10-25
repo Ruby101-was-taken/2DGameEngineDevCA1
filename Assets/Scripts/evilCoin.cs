@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class evilCoin : MonoBehaviour
 {
+    //same as coin, only differences bein that it does not check for title and it removes coins
+
     public SpriteRenderer sprite;
     public CircleCollider2D coll;
     public GameManager gameManager;

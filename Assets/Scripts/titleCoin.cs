@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class titleCoin : MonoBehaviour
 {
-    // Update is called once per frame
+    // moves coins to the right, destroys it when off screen
     void Update()
     {
         transform.position = new Vector3(transform.position.x + 2*Time.deltaTime, transform.position.y, 0);

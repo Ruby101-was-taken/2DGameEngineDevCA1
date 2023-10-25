@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 public class TitleGameManager : MonoBehaviour
 {
 
+    //This is a dumbed down version of the gamemanger that is usually used, so that it works in the titlescreen
+
     public CharacterController player; 
 
     private int coin;
@@ -33,27 +35,5 @@ public class TitleGameManager : MonoBehaviour
         coin += amount;
 
         player.moveSpeed += (player.normalSpeed * 0.1f) * amount;
-
-
-        if (coin < 0)
-        {
-            player.kill();
-        }
     }
-
-    public void removeCoins()
-    {
-        if (coin > 0)
-        {
-            coin = 0;
-
-            player.moveSpeed = player.normalSpeed;
-
-        }
-        else
-        {
-            player.kill();
-        }
-    }
-
 }

@@ -49,14 +49,10 @@ public class CharacterController : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         moveSpeed = normalSpeed;
-        homingCoolDown = 0;
     }
 
     void FixedUpdate()
     {
-        float xVel = 0;
-        
-
         float horizontalInput = Input.GetAxis("Horizontal") * moveSpeed;
         float verticalInput = Input.GetAxis("Vertical") * moveSpeed;
 
@@ -71,67 +67,37 @@ public class CharacterController : MonoBehaviour
 
             body.velocity = new Vector2(horizontalInput, verticalInput);
         }
-        //if(!isGrounded)
-        //    body.AddForce(new Vector2(0, body.gravityScale));
-
-
-        //if (Physics2D.OverlapCircle(transform.position, balloonCheckRadius, whatIsBalloon))
-
-
-            //reset player if they fall down too fawr :(
-            if (transform.position.y < -20)
-            {
-            kill();
-            }
+            //reset player if they fall down too fawr :( - was used when was platformer, and was then used when testing top down so level could be reset, keeping it cuz it's been here so long I could not get rid of it :(
+            //if (transform.position.y < -20)
+            //{
+            //kill();
+            //}
 
     }
 
     private void Update()
     {
-
+        // pressing R resets, probs shouldn't be in the player script now that I'm thinking about it, meh it's fine
         if (Input.GetKeyDown(KeyCode.R))
             gameManager.resetGame(true);
     }
         
 
-    //returns 1 if number is positive, -1 if negative, 0 if 0, wait am I even gonna use this, like I thought I needed it but now idk, ah well, i'll keep it just incase. nvm I used it
+    //returns 1 if number is positive, -1 if negative, 0 if 0, wait am I even gonna use this, like I thought I needed it but now idk, ah well, i'll keep it just incase. nvm I used it - nvm again I never ended up using it, pretty cool tho
     float posOrNeg(float num)
     {
         if (num == 0) return 0;
         else return Mathf.Abs(num) / num;
     }
 
-    public void startHoming(Vector3 balloonPos)
-    {
-        Debug.Log(balloonPos);
-        if(homingCoolDown == 0)
-        {
-            homeTo = balloonPos;
-            homingCoolDown = 20 ;
-            if (transform.position.x < homeTo.x) homeRight = true;
-            else homeRight = false;
-            if (transform.position.y < homeTo.y) homeUp = true;
-            else homeUp = false;
-        }
-    }
 
     public void kill()
     {
-        body.velocityX = 0;
-        body.velocityY = 0;
-        transform.position = new Vector3(0, 0, 0);
         gameManager.resetGame(true);
     }
 
     void OnCollisionEnter2D(Collision2D collider)
-    {
-        if (collider.gameObject.tag == "Balloon")
-        {
-            body.velocityY = 10;
-            homingCoolDown = 0;
-            homeTo = new Vector3(0, 0, 0);
-        }
-        else if (collider.gameObject.tag == "Spike")
+    {if (collider.gameObject.tag == "Spike")
         {
             gameManager.collectCoin(-10);
         }

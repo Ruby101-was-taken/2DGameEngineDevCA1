@@ -19,7 +19,7 @@ public class switchCoin : MonoBehaviour
     private void Update()
     {
         if (!isCollected)
-        {
+        { //check if not collected and if it  is check the state of the switch
             if (gameManager.swicthOn)
             {
                 coll.enabled = isOn;
